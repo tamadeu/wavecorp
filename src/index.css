@@ -10,9 +10,10 @@
   --ink: #17201f;
   --paper: #f5f4ee;
   --white: #fffef9;
-  --teal: #0a6e67;
-  --teal-dark: #07524e;
-  --coral: #f06b4f;
+  --secondary: #2b587a;
+  --secondary-dark: #1d3d55;
+  --secondary-light: #bed3e3;
+  --coral: #da6b21;
   --line: rgba(23, 32, 31, 0.17);
 }
 

@@ -16,6 +16,7 @@ import {
   Users,
   X,
 } from 'lucide-react'
+import waveLogo from './assets/logo-wave-transparente.png'
 import './App.css'
 
 const services = [
@@ -63,12 +64,7 @@ const networkRoles = [
 function Brand() {
   return (
     <a className="brand" href="#inicio" aria-label="Wavecorp, início">
-      <span className="brand-mark" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-      </span>
-      <span>WAVECORP</span>
+      <img src={waveLogo} alt="Wave — We Add Value to Enterprises" />
     </a>
   )
 }

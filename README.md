@@ -2,6 +2,8 @@
 
 Site institucional one-page da Wavecorp, desenvolvido com React, TypeScript e Vite.
 
+Requer Node.js 22.12 ou superior.
+
 ## Executar localmente
 
 ```bash
