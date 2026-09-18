@@ -105,7 +105,6 @@ function App() {
           <div className="hero-grid" aria-hidden="true" />
           <div className="hero-content shell">
             <p className="eyebrow light">Circular Business Company</p>
-            <h1>Wavecorp</h1>
             <p className="hero-statement">
               Inovamos na forma como <strong>desenvolvemos negócios.</strong>
             </p>
