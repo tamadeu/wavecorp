@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&display=swap');
+
+:root {
+  font-family: 'Archivo', sans-serif;
+  color: #17201f;
+  background: #f5f4ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #17201f;
+  --paper: #f5f4ee;
+  --white: #fffef9;
+  --teal: #0a6e67;
+  --teal-dark: #07524e;
+  --coral: #f06b4f;
+  --line: rgba(23, 32, 31, 0.17);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 82px; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper); }
+body, button, a { font-family: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button { color: inherit; }
+::selection { background: var(--coral); color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
